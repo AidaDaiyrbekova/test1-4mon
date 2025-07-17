@@ -1,0 +1,12 @@
+#box {
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+#box.colored {
+    background: #f1e422;
+}
+
