@@ -1,6 +1,6 @@
 // Задача 1
 // const extractNumbers = (str) => {
-//     return (str.match(/\d/g) || []).map(Number);
+//     return (str.match(/\d/g)).map(Number);
 // }
 // console.log(extractNumbers("a1fg5hj6"))// вернёт [1, 5, 6]
 
@@ -57,17 +57,17 @@
 
 
 // Задача 6
-const count = document.querySelector('#counter');
-// let counter = 0;
+const count = document.querySelector('#counter')
+// let counter = 0
 //
 // const interval = setInterval(() => {
-//     counter++;
-//     count.textContent = counter;
+//     counter++
+//     count.textContent = counter
 //
 //     if (counter >= 100) {
-//         clearInterval(interval);
+//         clearInterval(interval)
 //     }
-// }, 1);
+// }, 1)
 
 // Задача 7
 const button = document.querySelector('.button')
